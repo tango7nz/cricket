@@ -1,0 +1,207 @@
+{
+  "team": "LSCC Carnies",
+  "season": "2026-27",
+  "competition": "Selwyn/BP T20 8-a-side Social grade",
+  "players_per_side": 8,
+  "wickets_for_all_out": 7,
+  "retire_after": 50,
+  "max_overs": 20,
+  "max_overs_per_bowler": 4,
+  "points": {"win": 6, "draw": 3, "bonus_runs": 40, "bonus_wickets": 3},
+  "ladder_as_of": "2026-10-31",
+  "ladder_sort": ["points", "runs for", "wickets taken"],
+  "ladder": [
+    {"team": "LSCC Carnies", "played": 3, "won": 2, "lost": 1, "bonus": 1, "points": 13, "runs_for": 369, "runs_against": 357},
+    {"team": "Darfield Dogs", "played": 2, "won": 2, "lost": 0, "bonus": 1, "points": 13, "runs_for": 360, "runs_against": 309},
+    {"team": "Lincoln Sticky Wickets", "played": 2, "won": 2, "lost": 0, "bonus": 1, "points": 13, "runs_for": 338, "runs_against": 326},
+    {"team": "The Rock Weedons Blue", "played": 2, "won": 1, "lost": 1, "bonus": 1, "points": 7, "runs_for": 298, "runs_against": 237},
+    {"team": "Lincoln Warriors", "played": 1, "won": 1, "lost": 0, "bonus": 1, "points": 7, "runs_for": 244, "runs_against": 195},
+    {"team": "LSCC Duck Hunters", "played": 2, "won": 1, "lost": 1, "bonus": 1, "points": 7, "runs_for": 179, "runs_against": 250},
+    {"team": "Jolly Billboards 69ers", "played": 1, "won": 1, "lost": 0, "bonus": 0, "points": 6, "runs_for": 170, "runs_against": 168},
+    {"team": "Preb Fine Legs", "played": 2, "won": 0, "lost": 2, "bonus": 0, "points": 0, "runs_for": 368, "runs_against": 418},
+    {"team": "Springston Hopefull", "played": 2, "won": 0, "lost": 2, "bonus": 0, "points": 0, "runs_for": 273, "runs_against": 284},
+    {"team": "PHCC Senior Social 8 aSide", "played": 1, "won": 0, "lost": 1, "bonus": 0, "points": 0, "runs_for": 168, "runs_against": 170},
+    {"team": "Weedons Roosters", "played": 1, "won": 0, "lost": 1, "bonus": 0, "points": 0, "runs_for": 141, "runs_against": 144},
+    {"team": "T20 Greendale/Sth Malvern Social", "played": 1, "won": 0, "lost": 1, "bonus": 0, "points": 0, "runs_for": 136, "runs_against": 186}
+  ],
+  "fixtures": [
+    {"round": 4, "date": "2026-11-07", "time": "14:00", "home": "Lincoln Sticky Wickets", "away": "LSCC Carnies", "venue": "Kakaha Park"},
+    {"round": 5, "date": "2026-11-21", "time": "14:00", "home": "Jolly Billboards 69ers", "away": "LSCC Carnies", "venue": "Foster Park"},
+    {"round": 6, "date": "2026-11-28", "time": "14:00", "home": "T20 Greendale/Sth Malvern Social", "away": "LSCC Carnies", "venue": "Greendale Domain"},
+    {"round": 7, "date": "2026-12-05", "time": "14:00", "home": "LSCC Carnies", "away": "Preb Fine Legs", "venue": "Southbridge Domain"},
+    {"round": 8, "date": "2026-12-12", "time": "14:00", "home": "Lincoln Warriors", "away": "LSCC Carnies", "venue": "Kakaha Park"},
+    {"round": 9, "date": "2027-01-16", "time": "14:00", "home": "Darfield Dogs", "away": "LSCC Carnies", "venue": "Darfield Domain"},
+    {"round": 10, "date": "2027-01-23", "time": "14:00", "home": "LSCC Carnies", "away": "Springston Hopefull", "venue": "Southbridge Domain"},
+    {"round": 11, "date": "2027-01-30", "time": "14:00", "home": "The Rock Weedons Blue", "away": "LSCC Carnies", "venue": "Foster Park"}
+  ],
+  "matches": [
+    {
+      "date": "2026-10-10",
+      "round": 1,
+      "opponent": "Springston Hopeful",
+      "playhq_opponent": "Springston Hopefull",
+      "venue": "Southbridge Domain",
+      "time": "14:00",
+      "toss": "Carnies elected to bowl",
+      "batted": "second",
+      "result": "win",
+      "margin": {"type": "wickets", "value": 6},
+      "points": 7,
+      "bonus": true,
+      "card": "Scorecards/2026-10-10 vs Springston Hopeful.pdf",
+      "match_id": "gnlc5224",
+      "xi": ["Cameron Renouf", "George Murphy", "Richard Booth", "Alastair Malcolm", "Hugh Burns", "Billy Jones", "Hamish Johnson", "Steve Meikle"],
+      "story": "Carnies bowled first at Southbridge and kept Springston to 88 all out. Hugh Burns took 2 for 11 and Hamish Johnson 2 for 14. After nine overs the chase was 79 for 0, Cameron Renouf 49 off 34 and George Murphy 21. Renouf retired on 50 in the next over, Richard Booth was out first ball at 82 for 1, and Murphy and Alastair Malcolm finished it in the 11th over. The win came with the chase bonus, because a retirement is not a wicket.",
+      "carnies_batting": {
+        "runs": 90,
+        "wickets": 1,
+        "balls": 65,
+        "extras": {"b": 3, "lb": 0, "w": 5, "nb": 2},
+        "batters": [
+          {"name": "Cameron Renouf", "runs": 50, "balls": 35, "fours": 5, "sixes": 2, "dismissal": "retired"},
+          {"name": "George Murphy", "runs": 27, "balls": 27, "fours": 3, "sixes": 0, "dismissal": "not_out"},
+          {"name": "Richard Booth", "runs": 0, "balls": 1, "fours": 0, "sixes": 0, "dismissal": "bowled", "bowler": "Sam Chan"},
+          {"name": "Alastair Malcolm", "runs": 3, "balls": 4, "fours": 0, "sixes": 0, "dismissal": "not_out"}
+        ]
+      },
+      "carnies_bowling": {
+        "runs": 88,
+        "wickets": 7,
+        "balls": 106,
+        "extras": {"b": 0, "lb": 1, "w": 7, "nb": 1},
+        "bowlers": [
+          {"name": "Hugh Burns", "balls": 24, "maidens": 0, "runs": 11, "wickets": 2, "dots": 16},
+          {"name": "Billy Jones", "balls": 18, "maidens": 0, "runs": 25, "wickets": 0, "dots": 5},
+          {"name": "Hamish Johnson", "balls": 18, "maidens": 0, "runs": 14, "wickets": 2, "dots": 10},
+          {"name": "Steve Meikle", "balls": 18, "maidens": 0, "runs": 17, "wickets": 0, "dots": 9},
+          {"name": "Richard Booth", "balls": 16, "maidens": 0, "runs": 13, "wickets": 0, "dots": 10},
+          {"name": "Alastair Malcolm", "balls": 12, "maidens": 0, "runs": 7, "wickets": 1, "dots": 9}
+        ],
+        "batters": [
+          {"name": "David Bainbridge", "runs": 24, "balls": 30, "fours": 2, "sixes": 0, "dismissal": "bowled", "bowler": "Hugh Burns"},
+          {"name": "Tjaart Van Der Walt", "runs": 4, "balls": 11, "fours": 0, "sixes": 0, "dismissal": "bowled", "bowler": "Hugh Burns"},
+          {"name": "Sam Chan", "runs": 32, "balls": 32, "fours": 4, "sixes": 0, "dismissal": "bowled", "bowler": "Alastair Malcolm"},
+          {"name": "Riaan", "runs": 9, "balls": 7, "fours": 1, "sixes": 0, "dismissal": "caught", "fielder": "Steve Meikle", "bowler": "Hamish Johnson"},
+          {"name": "Reinhardt", "runs": 0, "balls": 4, "fours": 0, "sixes": 0, "dismissal": "bowled", "bowler": "Hamish Johnson"},
+          {"name": "Altus", "runs": 3, "balls": 15, "fours": 0, "sixes": 0, "dismissal": "run_out", "fielder": "Hugh Burns"},
+          {"name": "David Joubert", "runs": 6, "balls": 6, "fours": 1, "sixes": 0, "dismissal": "run_out", "fielder": "Blair"},
+          {"name": "Deon Joubert", "runs": 1, "balls": 2, "fours": 0, "sixes": 0, "dismissal": "not_out"}
+        ]
+      }
+    },
+    {
+      "date": "2026-10-16",
+      "round": 2,
+      "opponent": "Leeston Duckhunters",
+      "playhq_opponent": "LSCC Duck Hunters",
+      "venue": "Southbridge Domain",
+      "time": "17:30",
+      "toss": "Duckhunters elected to bowl",
+      "batted": "first",
+      "result": "loss",
+      "margin": {"type": "wickets", "value": 6},
+      "points": 0,
+      "bonus": false,
+      "card": "Scorecards/2026-10-16 vs Leeston Duckhunters.pdf",
+      "match_id": "peyl6859",
+      "xi": ["Cameron Renouf", "Hugh Burns", "Richard Booth", "George Murphy", "Alastair Malcolm", "Billy Jones", "Hamish Johnson", "Matt Stone"],
+      "story": "The card leaves the ground blank. PlayHQ has this one at Southbridge Domain. Cameron Renouf and Hugh Burns put on 59, and Burns made 29 off 13 with two sixes before he was bowled at 5.5. Three more wickets fell in the next three overs, and the score only moved from 59 to 74. Alastair Malcolm's 20 got the total to 104 for 5, and the innings closed at 110 all out in 17.4 overs, the same length as Springston's the week before. Jack Dawson retired on 52 and Ben West finished 51 not out. Duckhunters lost one wicket.",
+      "carnies_batting": {
+        "runs": 110,
+        "wickets": 7,
+        "balls": 106,
+        "extras": {"b": 3, "lb": 2, "w": 8, "nb": 2},
+        "batters": [
+          {"name": "Cameron Renouf", "runs": 31, "balls": 25, "fours": 4, "sixes": 0, "dismissal": "caught", "fielder": "Jack Dawson", "bowler": "Jared Poole"},
+          {"name": "Hugh Burns", "runs": 29, "balls": 13, "fours": 2, "sixes": 2, "dismissal": "bowled", "bowler": "Sam Dawson"},
+          {"name": "Richard Booth", "runs": 5, "balls": 6, "fours": 1, "sixes": 0, "dismissal": "caught", "fielder": "Sam Dawson", "bowler": "Ben West"},
+          {"name": "George Murphy", "runs": 1, "balls": 8, "fours": 0, "sixes": 0, "dismissal": "caught", "fielder": "Bruno Lambert", "bowler": "Jared Poole"},
+          {"name": "Alastair Malcolm", "runs": 20, "balls": 20, "fours": 1, "sixes": 1, "dismissal": "caught", "fielder": "Cowan Estal", "bowler": "Jack Macdonald"},
+          {"name": "Billy Jones", "runs": 5, "balls": 20, "fours": 0, "sixes": 0, "dismissal": "bowled", "bowler": "Bruno Lambert"},
+          {"name": "Hamish Johnson", "runs": 4, "balls": 15, "fours": 0, "sixes": 0, "dismissal": "not_out"},
+          {"name": "Matt Stone", "runs": 0, "balls": 1, "fours": 0, "sixes": 0, "dismissal": "run_out", "fielder": "Ben West"}
+        ]
+      },
+      "carnies_bowling": {
+        "runs": 111,
+        "wickets": 1,
+        "balls": 79,
+        "extras": {"b": 1, "lb": 0, "w": 0, "nb": 0},
+        "bowlers": [
+          {"name": "Richard Booth", "balls": 18, "maidens": 0, "runs": 25, "wickets": 0, "dots": 7},
+          {"name": "Hugh Burns", "balls": 18, "maidens": 0, "runs": 21, "wickets": 0, "dots": 7},
+          {"name": "Billy Jones", "balls": 12, "maidens": 0, "runs": 17, "wickets": 0, "dots": 1},
+          {"name": "Hamish Johnson", "balls": 12, "maidens": 0, "runs": 26, "wickets": 0, "dots": 4},
+          {"name": "Alastair Malcolm", "balls": 12, "maidens": 0, "runs": 13, "wickets": 1, "dots": 3},
+          {"name": "Matt Stone", "balls": 6, "maidens": 0, "runs": 7, "wickets": 0, "dots": 2},
+          {"name": "George Murphy", "balls": 1, "maidens": 0, "runs": 1, "wickets": 0, "dots": 0}
+        ],
+        "batters": [
+          {"name": "Ben West", "runs": 51, "balls": 37, "fours": 4, "sixes": 1, "dismissal": "not_out"},
+          {"name": "Jack Dawson", "runs": 52, "balls": 30, "fours": 6, "sixes": 2, "dismissal": "retired"},
+          {"name": "Bruno Lambert", "runs": 0, "balls": 4, "fours": 0, "sixes": 0, "dismissal": "caught", "fielder": "Cameron Renouf", "bowler": "Alastair Malcolm"},
+          {"name": "Jared Poole", "runs": 7, "balls": 8, "fours": 0, "sixes": 0, "dismissal": "not_out"}
+        ]
+      }
+    },
+    {
+      "date": "2026-10-30",
+      "round": 3,
+      "opponent": "Weedons Blue",
+      "playhq_opponent": "The Rock Weedons Blue",
+      "venue": "Brookside Park",
+      "time": "17:24",
+      "toss": "Carnies elected to bat",
+      "batted": "first",
+      "result": "win",
+      "margin": {"type": "runs", "value": 11},
+      "points": 6,
+      "bonus": false,
+      "card": "Scorecards/2026-10-30 vs Weedons Blue.pdf",
+      "match_id": "qycj1287",
+      "xi": ["Cameron Renouf", "Steve Meikle", "James Mckegg", "Richard Booth", "George Murphy", "Matt Stone", "Hugh Burns", "Hamish Johnson"],
+      "story": "The card leaves the ground blank. PlayHQ has this one at Brookside Park. Carnies were 39 for 3 in 6.1 overs, the score stuck on 39 for all three wickets. Caleb took two in the sixth over, and Tim bowled Steve Meikle with the first ball of the seventh. Richard Booth and George Murphy were still together at 128 for 3 after 16 overs, Booth 40 and Murphy 47. Murphy retired on 50 in the 17th. Booth reached 50 off 27 in the 18th and retired too, at 151 for 3. The total was 169. Hugh Burns and Matt Stone then took three wickets each, and Weedons slumped to 75 for 6. Ryan, 62 not out, and Tim, 39 not out, added 83 and got to 158. The win was 11 runs, 29 short of the batting-first bonus.",
+      "carnies_batting": {
+        "runs": 169,
+        "wickets": 5,
+        "balls": 120,
+        "extras": {"b": 0, "lb": 5, "w": 4, "nb": 1},
+        "batters": [
+          {"name": "Cameron Renouf", "runs": 23, "balls": 20, "fours": 5, "sixes": 0, "dismissal": "caught", "fielder": "Ryan", "bowler": "Caleb"},
+          {"name": "Steve Meikle", "runs": 10, "balls": 15, "fours": 1, "sixes": 0, "dismissal": "bowled", "bowler": "Tim"},
+          {"name": "James Mckegg", "runs": 0, "balls": 2, "fours": 0, "sixes": 0, "dismissal": "bowled", "bowler": "Caleb"},
+          {"name": "Richard Booth", "runs": 50, "balls": 27, "fours": 7, "sixes": 2, "dismissal": "retired"},
+          {"name": "George Murphy", "runs": 50, "balls": 39, "fours": 3, "sixes": 2, "dismissal": "retired"},
+          {"name": "Matt Stone", "runs": 23, "balls": 14, "fours": 3, "sixes": 0, "dismissal": "stumped", "fielder": "Ryan", "bowler": "Jared"},
+          {"name": "Hugh Burns", "runs": 2, "balls": 3, "fours": 0, "sixes": 0, "dismissal": "stumped", "fielder": "Ryan", "bowler": "Jared"},
+          {"name": "Hamish Johnson", "runs": 1, "balls": 1, "fours": 0, "sixes": 0, "dismissal": "not_out"}
+        ]
+      },
+      "carnies_bowling": {
+        "runs": 158,
+        "wickets": 6,
+        "balls": 120,
+        "extras": {"b": 2, "lb": 3, "w": 9, "nb": 2},
+        "bowlers": [
+          {"name": "Hugh Burns", "balls": 24, "maidens": 0, "runs": 18, "wickets": 3, "dots": 15},
+          {"name": "George Murphy", "balls": 12, "maidens": 0, "runs": 18, "wickets": 0, "dots": 4},
+          {"name": "Matt Stone", "balls": 24, "maidens": 0, "runs": 21, "wickets": 3, "dots": 16},
+          {"name": "Steve Meikle", "balls": 12, "maidens": 0, "runs": 21, "wickets": 0, "dots": 3},
+          {"name": "Hamish Johnson", "balls": 24, "maidens": 0, "runs": 30, "wickets": 0, "dots": 7},
+          {"name": "James Mckegg", "balls": 12, "maidens": 0, "runs": 22, "wickets": 0, "dots": 5},
+          {"name": "Richard Booth", "balls": 12, "maidens": 0, "runs": 23, "wickets": 0, "dots": 2}
+        ],
+        "batters": [
+          {"name": "Brendon", "runs": 10, "balls": 14, "fours": 1, "sixes": 0, "dismissal": "bowled", "bowler": "Hugh Burns"},
+          {"name": "James", "runs": 23, "balls": 18, "fours": 3, "sixes": 0, "dismissal": "caught", "fielder": "Matt Stone", "bowler": "Hugh Burns"},
+          {"name": "Ryan", "runs": 62, "balls": 48, "fours": 10, "sixes": 0, "dismissal": "not_out"},
+          {"name": "Caleb", "runs": 0, "balls": 2, "fours": 0, "sixes": 0, "dismissal": "bowled", "bowler": "Hugh Burns"},
+          {"name": "Jared", "runs": 0, "balls": 3, "fours": 0, "sixes": 0, "dismissal": "caught", "fielder": "Cameron Renouf", "bowler": "Matt Stone"},
+          {"name": "Nathan", "runs": 2, "balls": 5, "fours": 0, "sixes": 0, "dismissal": "caught_and_bowled", "bowler": "Matt Stone"},
+          {"name": "Raynor", "runs": 6, "balls": 8, "fours": 1, "sixes": 0, "dismissal": "caught", "fielder": "Cameron Renouf", "bowler": "Matt Stone"},
+          {"name": "Tim", "runs": 39, "balls": 24, "fours": 4, "sixes": 1, "dismissal": "not_out"}
+        ]
+      }
+    }
+  ]
+}
