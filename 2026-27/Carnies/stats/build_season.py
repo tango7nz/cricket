@@ -2,7 +2,7 @@
 
 Add a match to season.json, then run:
 
-    python 2026-27/stats/build_season.py
+    python 2026-27/Carnies/stats/build_season.py
 """
 
 from __future__ import annotations
@@ -388,6 +388,43 @@ def credit(counts: dict, name: str, key: str) -> None:
     row[key] += 1
 
 
+def highlights_table(batters: list[dict], bowlers: list[dict]) -> str | None:
+    by_name: dict[str, dict] = {}
+    for row in batters:
+        by_name[row["name"]] = {
+            "name": row["name"],
+            "fifties": row["fifties"],
+            "ducks": len(row["ducks"]),
+            "three_wicket_games": 0,
+            "sixes": row["sixes"],
+        }
+    for row in bowlers:
+        entry = by_name.setdefault(
+            row["name"],
+            {"name": row["name"], "fifties": 0, "ducks": 0, "three_wicket_games": 0, "sixes": 0},
+        )
+        entry["three_wicket_games"] = sum(spell["wickets"] >= 3 for spell in row["spells"])
+    rows = [
+        row
+        for row in by_name.values()
+        if row["fifties"] or row["ducks"] or row["three_wicket_games"] or row["sixes"]
+    ]
+    if not rows:
+        return None
+    rows.sort(key=lambda row: (-row["fifties"], -row["sixes"], -row["three_wicket_games"], row["name"]))
+    body = [
+        [
+            row["name"],
+            str(row["fifties"]),
+            str(row["sixes"]),
+            str(row["three_wicket_games"]),
+            str(row["ducks"]),
+        ]
+        for row in rows
+    ]
+    return table(["Player", "50's", "6's", "3 wickets", "Ducks"], body)
+
+
 def table(headers: list[str], rows: list[list[str]]) -> str:
     head = "| " + " | ".join(headers) + " |"
     rule = "| " + " | ".join("---" for _ in headers) + " |"
@@ -646,6 +683,16 @@ def render(data: dict) -> str:
             ]
         )
     lines.extend(["", "## Worth a mention", ""])
+    highlights = highlights_table(batters, bowlers)
+    if highlights:
+        lines.append(highlights)
+        lines.extend(
+            [
+                "",
+                "A fifty is 50 or more, including a retirement. 3 wickets means 3 or more in a match. A duck is out for 0.",
+                "",
+            ]
+        )
     for note in notes:
         lines.append(f"- {note}")
     lines.extend(["", "## Still to play", "", f"Carnies fixtures on PlayHQ as at {nice_date(data['ladder_as_of'])}.", ""])

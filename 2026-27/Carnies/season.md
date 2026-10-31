@@ -103,6 +103,18 @@ PlayHQ, Selwyn/BP T20 8-a-side Social grade, as at 31 Oct 2026.
 
 ## Worth a mention
 
+| Player | 50's | 6's | 3 wickets | Ducks |
+| --- | --- | --- | --- | --- |
+| Cameron Renouf | 1 | 2 | 0 | 0 |
+| George Murphy | 1 | 2 | 0 | 0 |
+| Richard Booth | 1 | 2 | 0 | 1 |
+| Hugh Burns | 0 | 2 | 1 | 0 |
+| Alastair Malcolm | 0 | 1 | 0 | 0 |
+| Matt Stone | 0 | 0 | 1 | 1 |
+| James Mckegg | 0 | 0 | 0 | 1 |
+
+A fifty is 50 or more, including a retirement. 3 wickets means 3 or more in a match. A duck is out for 0.
+
 - Fifties so far, each retired on 50: Cameron Renouf 50 off 35 on 10 Oct against Springston Hopeful; Richard Booth 50 off 27 on 30 Oct against Weedons Blue; George Murphy 50 off 39 on 30 Oct against Weedons Blue.
 - Ducks: Richard Booth, bowled first ball on 10 Oct against Springston Hopeful; Matt Stone, run out first ball on 16 Oct against Leeston Duckhunters; James Mckegg, bowled for a duck off 2 on 30 Oct against Weedons Blue.
 - 9 sixes: Cameron Renouf 2, George Murphy 2, Richard Booth 2, Hugh Burns 2, Alastair Malcolm 1.
