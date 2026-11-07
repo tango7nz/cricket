@@ -1,49 +1,50 @@
 # LSCC Carnies, 2026-27
 
-3 games played, 2 wins and 1 loss, 13 points. On the PlayHQ ladder at 31 Oct 2026, Carnies are first.
+4 games played, 2 wins and 2 losses, 13 points. On the PlayHQ ladder at 7 Nov 2026, Carnies are second.
 
-3 teams are level on 13 points. PlayHQ sorts that by runs scored, then wickets taken. Runs scored: Carnies 369 from 3 games, Darfield Dogs 360 from 2 games, and Lincoln Sticky Wickets 338 from 2 games. Darfield Dogs and Lincoln Sticky Wickets are unbeaten.
+2 teams are level on 13 points. PlayHQ sorts that by runs scored, then wickets taken. Runs scored: Carnies 532 from 4 games and Darfield Dogs 360 from 2 games. Darfield Dogs are unbeaten.
 
-Next game: 7 Nov 2026, Lincoln Sticky Wickets v Carnies at Kakaha Park, 2:00pm.
+Next game: 21 Nov 2026, Jolly Billboards 69ers v Carnies at Foster Park, 2:00pm.
 
 ## Most runs
 
-Cameron Renouf leads with 104. George Murphy is next with 78, 26 behind.
+Cameron Renouf leads with 104. George Murphy is next with 97, 7 behind.
 
 The trophy is the run total. An average does not break the tie, and a retirement keeps the runs.
 
-| Player | 10 Oct | 16 Oct | 30 Oct | I | NO | Runs | HS | Ave | SR | 50 | 4s | 6s |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Cameron Renouf | 50† | 31 | 23 | 3 | 1 | 104 | 50† | 52.00 | 130.0 | 1 | 14 | 2 |
-| George Murphy | 27* | 1 | 50† | 3 | 2 | 78 | 50† | 78.00 | 105.4 | 1 | 6 | 2 |
-| Richard Booth | 0 | 5 | 50† | 3 | 1 | 55 | 50† | 27.50 | 161.8 | 1 | 8 | 2 |
-| Hugh Burns | dnb | 29 | 2 | 2 | 0 | 31 | 29 | 15.50 | 193.8 | 0 | 2 | 2 |
-| Alastair Malcolm | 3* | 20 |  | 2 | 1 | 23 | 20 | 23.00 | 95.8 | 0 | 1 | 1 |
-| Matt Stone |  | 0 | 23 | 2 | 0 | 23 | 23 | 11.50 | 153.3 | 0 | 3 | 0 |
-| Steve Meikle | dnb |  | 10 | 1 | 0 | 10 | 10 | 10.00 | 66.7 | 0 | 1 | 0 |
-| Billy Jones | dnb | 5 |  | 1 | 0 | 5 | 5 | 5.00 | 25.0 | 0 | 0 | 0 |
-| Hamish Johnson | dnb | 4* | 1* | 2 | 2 | 5 | 4* | - | 31.2 | 0 | 0 | 0 |
-| James Mckegg |  |  | 0 | 1 | 0 | 0 | 0 | 0.00 | 0.0 | 0 | 0 | 0 |
+| Player | 10 Oct | 16 Oct | 30 Oct | 7 Nov | I | NO | Runs | HS | Ave | SR | 50 | 4s | 6s |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Cameron Renouf | 50† | 31 | 23 |  | 3 | 1 | 104 | 50† | 52.00 | 130.0 | 1 | 14 | 2 |
+| George Murphy | 27* | 1 | 50† | 19 | 4 | 2 | 97 | 50† | 48.50 | 109.0 | 1 | 7 | 3 |
+| Richard Booth | 0 | 5 | 50† | 12 | 4 | 1 | 67 | 50† | 22.33 | 152.3 | 1 | 10 | 2 |
+| Steve Meikle | dnb |  | 10 | 46 | 2 | 0 | 56 | 46 | 28.00 | 121.7 | 0 | 8 | 0 |
+| Hugh Burns | dnb | 29 | 2 | 24 | 3 | 0 | 55 | 29 | 18.33 | 161.8 | 0 | 4 | 3 |
+| Matt Stone |  | 0 | 23 | 9 | 3 | 0 | 32 | 23 | 10.67 | 145.5 | 0 | 3 | 1 |
+| Gautham |  |  |  | 31* | 1 | 1 | 31 | 31* | - | 103.3 | 0 | 4 | 0 |
+| Alastair Malcolm | 3* | 20 |  | 1* | 3 | 2 | 24 | 20 | 24.00 | 92.3 | 0 | 1 | 1 |
+| Hamish Johnson | dnb | 4* | 1* | 4 | 3 | 2 | 9 | 4* | 9.00 | 32.1 | 0 | 0 | 0 |
+| Billy Jones | dnb | 5 |  |  | 1 | 0 | 5 | 5 | 5.00 | 25.0 | 0 | 0 | 0 |
+| James Mckegg |  |  | 0 |  | 1 | 0 | 0 | 0 | 0.00 | 0.0 | 0 | 0 | 0 |
 
 † retired after passing 50, and counted as not out. * not out at the end of the innings. dnb means he was in the side and did not bat. A blank cell means he was not in the side.
 
 ## Most wickets
 
-Hugh Burns leads with 5 wickets from 11 overs. Matt Stone has 3 from 5 overs. The cap is 4 overs a game. From the games played so far, Hugh Burns has 1 over left and Matt Stone has 3 overs left.
+Hugh Burns leads with 6 wickets from 15 overs. Alastair Malcolm has 5 from 8 overs. The cap is 4 overs a game. From the games played so far, Hugh Burns has 1 over left and Alastair Malcolm has 4 overs left.
 
 The trophy is wickets credited to a bowler. A run-out is not a bowling wicket. Caught and bowled counts.
 
-| Player | 10 Oct | 16 Oct | 30 Oct | O | M | R | W | Ave | Econ | Best |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Hugh Burns | 2/11 | 0/21 | 3/18 | 11.0 | 0 | 50 | 5 | 10.00 | 4.55 | 3/18 |
-| Matt Stone |  | 0/7 | 3/21 | 5.0 | 0 | 28 | 3 | 9.33 | 5.60 | 3/21 |
-| Alastair Malcolm | 1/7 | 1/13 |  | 4.0 | 0 | 20 | 2 | 10.00 | 5.00 | 1/7 |
-| Hamish Johnson | 2/14 | 0/26 | 0/30 | 9.0 | 0 | 70 | 2 | 35.00 | 7.78 | 2/14 |
-| Steve Meikle | 0/17 |  | 0/21 | 5.0 | 0 | 38 | 0 | - | 7.60 | 0/17 |
-| Richard Booth | 0/13 | 0/25 | 0/23 | 7.4 | 0 | 61 | 0 | - | 7.96 | 0/13 |
-| Billy Jones | 0/25 | 0/17 |  | 5.0 | 0 | 42 | 0 | - | 8.40 | 0/17 |
-| George Murphy | - | 0/1 | 0/18 | 2.1 | 0 | 19 | 0 | - | 8.77 | 0/1 |
-| James Mckegg |  |  | 0/22 | 2.0 | 0 | 22 | 0 | - | 11.00 | 0/22 |
+| Player | 10 Oct | 16 Oct | 30 Oct | 7 Nov | O | M | R | W | Ave | Econ | Best |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Hugh Burns | 2/11 | 0/21 | 3/18 | 1/29 | 15.0 | 0 | 79 | 6 | 13.17 | 5.27 | 3/18 |
+| Alastair Malcolm | 1/7 | 1/13 |  | 3/30 | 8.0 | 0 | 50 | 5 | 10.00 | 6.25 | 3/30 |
+| Matt Stone |  | 0/7 | 3/21 | 1/24 | 8.0 | 0 | 52 | 4 | 13.00 | 6.50 | 3/21 |
+| Hamish Johnson | 2/14 | 0/26 | 0/30 | 0/21 | 11.0 | 0 | 91 | 2 | 45.50 | 8.27 | 2/14 |
+| Steve Meikle | 0/17 |  | 0/21 | 0/27 | 9.0 | 0 | 65 | 0 | - | 7.22 | 0/17 |
+| Richard Booth | 0/13 | 0/25 | 0/23 | 0/10 | 8.4 | 0 | 71 | 0 | - | 8.19 | 0/10 |
+| Billy Jones | 0/25 | 0/17 |  |  | 5.0 | 0 | 42 | 0 | - | 8.40 | 0/17 |
+| George Murphy | - | 0/1 | 0/18 | 0/9 | 3.1 | 0 | 28 | 0 | - | 8.84 | 0/1 |
+| James Mckegg |  |  | 0/22 |  | 2.0 | 0 | 22 | 0 | - | 11.00 | 0/22 |
 
 A figure in a match column is wickets/runs. - means he played and did not bowl. A blank cell means he was not in the side.
 
@@ -52,7 +53,10 @@ A figure in a match column is wickets/runs. - means he played and did not bowl. 
 | Player | Catches | Run outs | Stumpings |
 | --- | --- | --- | --- |
 | Cameron Renouf | 3 | 0 | 0 |
-| Matt Stone | 2 | 0 | 0 |
+| Matt Stone | 3 | 0 | 0 |
+| George Murphy | 1 | 0 | 0 |
+| Hamish Johnson | 1 | 0 | 0 |
+| Richard Booth | 1 | 0 | 0 |
 | Steve Meikle | 1 | 0 | 0 |
 | Hugh Burns | 0 | 1 | 0 |
 
@@ -67,6 +71,7 @@ Blair is credited with a run-out against Springston Hopeful and does not appear 
 | 10 Oct | Springston Hopeful | Southbridge Domain | 90/1 (10.5) | 88/7 (17.4) | Won by 6 wickets | 7 incl. bonus |
 | 16 Oct | Leeston Duckhunters | Southbridge Domain | 110/7 (17.4) | 111/1 (13.1) | Lost by 6 wickets | 0 |
 | 30 Oct | Weedons Blue | Brookside Park | 169/5 (20.0) | 158/6 (20.0) | Won by 11 runs | 6 |
+| 7 Nov | Sticky Wickets | Kakaha Park | 163/6 (20.0) | 166/5 (19.0) | Lost by 2 wickets | 0 |
 
 Seven wickets is all out. Grounds left blank on a card are filled from PlayHQ.
 
@@ -82,57 +87,60 @@ Scorecard: [2026-10-16 vs Leeston Duckhunters.pdf](<Scorecards/2026-10-16 vs Lee
 
 Scorecard: [2026-10-30 vs Weedons Blue.pdf](<Scorecards/2026-10-30 vs Weedons Blue.pdf>)
 
+**7 Nov against Sticky Wickets.** The card leaves the ground blank. PlayHQ has this one at Kakaha Park. Carnies were 80 for 5 when Hamish Johnson was bowled in the 12th over. Gautham and Steve Meikle took the score to 159 for 6: Meikle made 46 off 31 and was caught off Gutless Cunt, and Gautham finished 31 not out off 30. The innings closed at 163 for 6. Gutless Cunt took 3 for 15. Alastair Malcolm took 3 for 30 in reply, Hunno and Gutless Cunt in the same over, and Sticky Wickets were 92 for 4. Ralph made 27 not out off 14, Snaks finished 19 not out, and the chase ended at 166 for 5 in the 19th over. Carnies lost by 2 wickets.
+
+Scorecard: [2026-11-07 vs Sticky Wickets.pdf](<Scorecards/2026-11-07 vs Sticky Wickets.pdf>)
+
 ## Ladder
 
-PlayHQ, Selwyn/BP T20 8-a-side Social grade, as at 31 Oct 2026.
+PlayHQ, Selwyn/BP T20 8-a-side Social grade, as at 7 Nov 2026.
 
 |  | Team | P | W | L | Bonus | Pts | For | Against |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | **LSCC Carnies** | 3 | 2 | 1 | 1 | 13 | 369 | 357 |
-| 2 | Darfield Dogs | 2 | 2 | 0 | 1 | 13 | 360 | 309 |
-| 3 | Lincoln Sticky Wickets | 2 | 2 | 0 | 1 | 13 | 338 | 326 |
+| 1 | Lincoln Sticky Wickets | 3 | 3 | 0 | 1 | 19 | 504 | 489 |
+| 2 | **LSCC Carnies** | 4 | 2 | 2 | 1 | 13 | 532 | 523 |
+| 3 | Darfield Dogs | 2 | 2 | 0 | 1 | 13 | 360 | 309 |
 | 4 | The Rock Weedons Blue | 2 | 1 | 1 | 1 | 7 | 298 | 237 |
 | 5 | Lincoln Warriors | 1 | 1 | 0 | 1 | 7 | 244 | 195 |
 | 6 | LSCC Duck Hunters | 2 | 1 | 1 | 1 | 7 | 179 | 250 |
-| 7 | Jolly Billboards 69ers | 1 | 1 | 0 | 0 | 6 | 170 | 168 |
-| 8 | Preb Fine Legs | 2 | 0 | 2 | 0 | 0 | 368 | 418 |
-| 9 | Springston Hopefull | 2 | 0 | 2 | 0 | 0 | 273 | 284 |
-| 10 | PHCC Senior Social 8 aSide | 1 | 0 | 1 | 0 | 0 | 168 | 170 |
-| 11 | Weedons Roosters | 1 | 0 | 1 | 0 | 0 | 141 | 144 |
-| 12 | T20 Greendale/Sth Malvern Social | 1 | 0 | 1 | 0 | 0 | 136 | 186 |
+| 7 | PHCC Senior Social 8 aSide | 2 | 1 | 1 | 0 | 6 | 302 | 276 |
+| 8 | Jolly Billboards 69ers | 1 | 1 | 0 | 0 | 6 | 170 | 168 |
+| 9 | Preb Fine Legs | 2 | 0 | 2 | 0 | 0 | 368 | 418 |
+| 10 | Springston Hopefull | 2 | 0 | 2 | 0 | 0 | 273 | 284 |
+| 11 | T20 Greendale/Sth Malvern Social | 2 | 0 | 2 | 0 | 0 | 242 | 320 |
+| 12 | Weedons Roosters | 1 | 0 | 1 | 0 | 0 | 141 | 144 |
 
 ## Worth a mention
 
 | Player | 50's | 6's | 3 wickets | Ducks |
 | --- | --- | --- | --- | --- |
+| George Murphy | 1 | 3 | 0 | 0 |
 | Cameron Renouf | 1 | 2 | 0 | 0 |
-| George Murphy | 1 | 2 | 0 | 0 |
 | Richard Booth | 1 | 2 | 0 | 1 |
-| Hugh Burns | 0 | 2 | 1 | 0 |
-| Alastair Malcolm | 0 | 1 | 0 | 0 |
-| Matt Stone | 0 | 0 | 1 | 1 |
+| Hugh Burns | 0 | 3 | 1 | 0 |
+| Alastair Malcolm | 0 | 1 | 1 | 0 |
+| Matt Stone | 0 | 1 | 1 | 1 |
 | James Mckegg | 0 | 0 | 0 | 1 |
 
 A fifty is 50 or more, including a retirement. 3 wickets means 3 or more in a match. A duck is out for 0.
 
 - Fifties so far, each retired on 50: Cameron Renouf 50 off 35 on 10 Oct against Springston Hopeful; Richard Booth 50 off 27 on 30 Oct against Weedons Blue; George Murphy 50 off 39 on 30 Oct against Weedons Blue.
 - Ducks: Richard Booth, bowled first ball on 10 Oct against Springston Hopeful; Matt Stone, run out first ball on 16 Oct against Leeston Duckhunters; James Mckegg, bowled for a duck off 2 on 30 Oct against Weedons Blue.
-- 9 sixes: Cameron Renouf 2, George Murphy 2, Richard Booth 2, Hugh Burns 2, Alastair Malcolm 1.
+- 12 sixes: Cameron Renouf 2, George Murphy 3, Richard Booth 2, Hugh Burns 3, Matt Stone 1, Alastair Malcolm 1.
 - Fastest innings of 10 balls or more: Hugh Burns, 29 off 13 against Leeston Duckhunters, strike rate 223.1.
 - Best bowling spell: Hugh Burns, 3/18 off 4 overs against Weedons Blue.
-- Dot balls, among bowlers with at least two overs: Matt Stone has the best rate, 18 in 30 balls (60%). Hugh Burns has bowled the most dots, 38.
+- Dot balls, among bowlers with at least two overs: Matt Stone has the best rate, 27 in 48 balls (56%). Hugh Burns has bowled the most dots, 48.
 - Nobody has bowled a maiden yet.
 - Bonus points: chase bonus picked up against Springston Hopeful; the 11-run win over Weedons Blue was 29 short of the bonus.
-- Extras make up 35 of the 369 runs Carnies have scored, and 26 of the 357 they have conceded.
-- Played every game: Cameron Renouf, George Murphy, Richard Booth, Hugh Burns, Hamish Johnson.
+- Extras make up 52 of the 532 runs Carnies have scored, and 47 of the 523 they have conceded.
+- Played every game: George Murphy, Richard Booth, Hugh Burns, Hamish Johnson.
 
 ## Still to play
 
-Carnies fixtures on PlayHQ as at 31 Oct 2026.
+Carnies fixtures on PlayHQ as at 7 Nov 2026.
 
 | Round | Date | Time | Match | Ground |
 | --- | --- | --- | --- | --- |
-| R4 | 7 Nov 2026 | 2:00pm | Lincoln Sticky Wickets v Carnies | Kakaha Park |
 | R5 | 21 Nov 2026 | 2:00pm | Jolly Billboards 69ers v Carnies | Foster Park |
 | R6 | 28 Nov 2026 | 2:00pm | T20 Greendale/Sth Malvern Social v Carnies | Greendale Domain |
 | R7 | 5 Dec 2026 | 2:00pm | Carnies v Preb Fine Legs | Southbridge Domain |

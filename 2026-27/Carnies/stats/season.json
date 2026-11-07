@@ -8,24 +8,23 @@
   "max_overs": 20,
   "max_overs_per_bowler": 4,
   "points": {"win": 6, "draw": 3, "bonus_runs": 40, "bonus_wickets": 3},
-  "ladder_as_of": "2026-10-31",
+  "ladder_as_of": "2026-11-07",
   "ladder_sort": ["points", "runs for", "wickets taken"],
   "ladder": [
-    {"team": "LSCC Carnies", "played": 3, "won": 2, "lost": 1, "bonus": 1, "points": 13, "runs_for": 369, "runs_against": 357},
+    {"team": "Lincoln Sticky Wickets", "played": 3, "won": 3, "lost": 0, "bonus": 1, "points": 19, "runs_for": 504, "runs_against": 489},
+    {"team": "LSCC Carnies", "played": 4, "won": 2, "lost": 2, "bonus": 1, "points": 13, "runs_for": 532, "runs_against": 523},
     {"team": "Darfield Dogs", "played": 2, "won": 2, "lost": 0, "bonus": 1, "points": 13, "runs_for": 360, "runs_against": 309},
-    {"team": "Lincoln Sticky Wickets", "played": 2, "won": 2, "lost": 0, "bonus": 1, "points": 13, "runs_for": 338, "runs_against": 326},
     {"team": "The Rock Weedons Blue", "played": 2, "won": 1, "lost": 1, "bonus": 1, "points": 7, "runs_for": 298, "runs_against": 237},
     {"team": "Lincoln Warriors", "played": 1, "won": 1, "lost": 0, "bonus": 1, "points": 7, "runs_for": 244, "runs_against": 195},
     {"team": "LSCC Duck Hunters", "played": 2, "won": 1, "lost": 1, "bonus": 1, "points": 7, "runs_for": 179, "runs_against": 250},
+    {"team": "PHCC Senior Social 8 aSide", "played": 2, "won": 1, "lost": 1, "bonus": 0, "points": 6, "runs_for": 302, "runs_against": 276},
     {"team": "Jolly Billboards 69ers", "played": 1, "won": 1, "lost": 0, "bonus": 0, "points": 6, "runs_for": 170, "runs_against": 168},
     {"team": "Preb Fine Legs", "played": 2, "won": 0, "lost": 2, "bonus": 0, "points": 0, "runs_for": 368, "runs_against": 418},
     {"team": "Springston Hopefull", "played": 2, "won": 0, "lost": 2, "bonus": 0, "points": 0, "runs_for": 273, "runs_against": 284},
-    {"team": "PHCC Senior Social 8 aSide", "played": 1, "won": 0, "lost": 1, "bonus": 0, "points": 0, "runs_for": 168, "runs_against": 170},
-    {"team": "Weedons Roosters", "played": 1, "won": 0, "lost": 1, "bonus": 0, "points": 0, "runs_for": 141, "runs_against": 144},
-    {"team": "T20 Greendale/Sth Malvern Social", "played": 1, "won": 0, "lost": 1, "bonus": 0, "points": 0, "runs_for": 136, "runs_against": 186}
+    {"team": "T20 Greendale/Sth Malvern Social", "played": 2, "won": 0, "lost": 2, "bonus": 0, "points": 0, "runs_for": 242, "runs_against": 320},
+    {"team": "Weedons Roosters", "played": 1, "won": 0, "lost": 1, "bonus": 0, "points": 0, "runs_for": 141, "runs_against": 144}
   ],
   "fixtures": [
-    {"round": 4, "date": "2026-11-07", "time": "14:00", "home": "Lincoln Sticky Wickets", "away": "LSCC Carnies", "venue": "Kakaha Park"},
     {"round": 5, "date": "2026-11-21", "time": "14:00", "home": "Jolly Billboards 69ers", "away": "LSCC Carnies", "venue": "Foster Park"},
     {"round": 6, "date": "2026-11-28", "time": "14:00", "home": "T20 Greendale/Sth Malvern Social", "away": "LSCC Carnies", "venue": "Greendale Domain"},
     {"round": 7, "date": "2026-12-05", "time": "14:00", "home": "LSCC Carnies", "away": "Preb Fine Legs", "venue": "Southbridge Domain"},
@@ -200,6 +199,64 @@
           {"name": "Nathan", "runs": 2, "balls": 5, "fours": 0, "sixes": 0, "dismissal": "caught_and_bowled", "bowler": "Matt Stone"},
           {"name": "Raynor", "runs": 6, "balls": 8, "fours": 1, "sixes": 0, "dismissal": "caught", "fielder": "Cameron Renouf", "bowler": "Matt Stone"},
           {"name": "Tim", "runs": 39, "balls": 24, "fours": 4, "sixes": 1, "dismissal": "not_out"}
+        ]
+      }
+    },
+    {
+      "date": "2026-11-07",
+      "round": 4,
+      "opponent": "Sticky Wickets",
+      "playhq_opponent": "Lincoln Sticky Wickets",
+      "venue": "Kakaha Park",
+      "time": "14:00",
+      "toss": "Carnies elected to bat",
+      "batted": "first",
+      "result": "loss",
+      "margin": {"type": "wickets", "value": 2},
+      "points": 0,
+      "bonus": false,
+      "card": "Scorecards/2026-11-07 vs Sticky Wickets.pdf",
+      "match_id": "mzyt6088",
+      "xi": ["George Murphy", "Richard Booth", "Hugh Burns", "Matt Stone", "Gautham", "Hamish Johnson", "Steve Meikle", "Alastair Malcolm"],
+      "story": "The card leaves the ground blank. PlayHQ has this one at Kakaha Park. Carnies were 80 for 5 when Hamish Johnson was bowled in the 12th over. Gautham and Steve Meikle took the score to 159 for 6: Meikle made 46 off 31 and was caught off Gutless Cunt, and Gautham finished 31 not out off 30. The innings closed at 163 for 6. Gutless Cunt took 3 for 15. Alastair Malcolm took 3 for 30 in reply, Hunno and Gutless Cunt in the same over, and Sticky Wickets were 92 for 4. Ralph made 27 not out off 14, Snaks finished 19 not out, and the chase ended at 166 for 5 in the 19th over. Carnies lost by 2 wickets.",
+      "carnies_batting": {
+        "runs": 163,
+        "wickets": 6,
+        "balls": 120,
+        "extras": {"b": 0, "lb": 2, "w": 10, "nb": 5},
+        "batters": [
+          {"name": "George Murphy", "runs": 19, "balls": 15, "fours": 1, "sixes": 1, "dismissal": "caught", "fielder": "Hunno", "bowler": "Gutless Cunt"},
+          {"name": "Richard Booth", "runs": 12, "balls": 10, "fours": 2, "sixes": 0, "dismissal": "caught", "fielder": "Snaks", "bowler": "Billy"},
+          {"name": "Hugh Burns", "runs": 24, "balls": 18, "fours": 2, "sixes": 1, "dismissal": "stumped", "fielder": "Hunno", "bowler": "Benny Boiii"},
+          {"name": "Matt Stone", "runs": 9, "balls": 7, "fours": 0, "sixes": 1, "dismissal": "bowled", "bowler": "Gutless Cunt"},
+          {"name": "Gautham", "runs": 31, "balls": 30, "fours": 4, "sixes": 0, "dismissal": "not_out"},
+          {"name": "Hamish Johnson", "runs": 4, "balls": 12, "fours": 0, "sixes": 0, "dismissal": "bowled", "bowler": "Bed Wetter"},
+          {"name": "Steve Meikle", "runs": 46, "balls": 31, "fours": 7, "sixes": 0, "dismissal": "caught", "fielder": "Billy", "bowler": "Gutless Cunt"},
+          {"name": "Alastair Malcolm", "runs": 1, "balls": 2, "fours": 0, "sixes": 0, "dismissal": "not_out"}
+        ]
+      },
+      "carnies_bowling": {
+        "runs": 166,
+        "wickets": 5,
+        "balls": 114,
+        "extras": {"b": 13, "lb": 3, "w": 2, "nb": 3},
+        "bowlers": [
+          {"name": "Hugh Burns", "balls": 24, "maidens": 0, "runs": 29, "wickets": 1, "dots": 10},
+          {"name": "Hamish Johnson", "balls": 12, "maidens": 0, "runs": 21, "wickets": 0, "dots": 6},
+          {"name": "Alastair Malcolm", "balls": 24, "maidens": 0, "runs": 30, "wickets": 3, "dots": 11},
+          {"name": "Matt Stone", "balls": 18, "maidens": 0, "runs": 24, "wickets": 1, "dots": 9},
+          {"name": "Steve Meikle", "balls": 24, "maidens": 0, "runs": 27, "wickets": 0, "dots": 10},
+          {"name": "Richard Booth", "balls": 6, "maidens": 0, "runs": 10, "wickets": 0, "dots": 4},
+          {"name": "George Murphy", "balls": 6, "maidens": 0, "runs": 9, "wickets": 0, "dots": 2}
+        ],
+        "batters": [
+          {"name": "Gutless Cunt", "runs": 43, "balls": 26, "fours": 6, "sixes": 1, "dismissal": "caught", "fielder": "Richard Booth", "bowler": "Alastair Malcolm"},
+          {"name": "Jordie Barret", "runs": 8, "balls": 7, "fours": 2, "sixes": 0, "dismissal": "bowled", "bowler": "Hugh Burns"},
+          {"name": "Hunno", "runs": 16, "balls": 12, "fours": 3, "sixes": 0, "dismissal": "caught", "fielder": "Hamish Johnson", "bowler": "Alastair Malcolm"},
+          {"name": "Snaks", "runs": 19, "balls": 23, "fours": 1, "sixes": 0, "dismissal": "not_out"},
+          {"name": "Billy", "runs": 15, "balls": 11, "fours": 2, "sixes": 0, "dismissal": "caught", "fielder": "Matt Stone", "bowler": "Alastair Malcolm"},
+          {"name": "Bed Wetter", "runs": 17, "balls": 24, "fours": 0, "sixes": 0, "dismissal": "caught", "fielder": "George Murphy", "bowler": "Matt Stone"},
+          {"name": "Ralph", "runs": 27, "balls": 14, "fours": 3, "sixes": 2, "dismissal": "not_out"}
         ]
       }
     }

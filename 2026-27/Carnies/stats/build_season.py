@@ -150,6 +150,9 @@ def validate(data: dict) -> None:
         "runs_for": runs_for,
         "runs_against": runs_against,
         "points": points,
+        "played": len(data["matches"]),
+        "won": sum(match["result"] == "win" for match in data["matches"]),
+        "lost": sum(match["result"] == "loss" for match in data["matches"]),
         "ladder_agrees": (
             ours["runs_for"] == runs_for
             and ours["runs_against"] == runs_against
@@ -571,16 +574,22 @@ def render(data: dict) -> str:
     ladder = data["ladder"]
     place = next(index for index, row in enumerate(ladder, start=1) if row["team"] == data["team"])
     ours = ladder[place - 1]
+    when = nice_date(data["ladder_as_of"])
+    if data["_check"]["ladder_agrees"]:
+        place_line = f"On the PlayHQ ladder at {when}, Carnies are {place_word(place)}."
+    else:
+        place_line = (
+            f"PlayHQ at {when} has not posted this round, and on that ladder Carnies are {place_word(place)}."
+        )
     lines = [
         f"# {data['team']}, {data['season']}",
         "",
-        (
-            f"{record_sentence(data)} "
-            f"On the PlayHQ ladder at {nice_date(data['ladder_as_of'])}, Carnies are {place_word(place)}."
-        ),
+        f"{record_sentence(data)} {place_line}",
         "",
     ]
     tie = tie_paragraph(data, ladder, ours)
+    if tie and not data["_check"]["ladder_agrees"]:
+        tie = "On that table, " + tie[0].lower() + tie[1:]
     if tie:
         lines.extend([tie, ""])
     upcoming = next_game_sentence(data)
@@ -676,9 +685,12 @@ def render(data: dict) -> str:
             [
                 "",
                 (
-                    f"The Carnies row above does not match the cards. From the scorecards: "
-                    f"{data['_check']['points']} points, {data['_check']['runs_for']} runs for, "
-                    f"{data['_check']['runs_against']} against."
+                    "PlayHQ has not posted this round. From the scorecards: "
+                    f"{count_phrase(data['_check']['played'], 'game')}, "
+                    f"{count_phrase(data['_check']['won'], 'win')} and "
+                    f"{count_phrase(data['_check']['lost'], 'loss', 'losses')}, "
+                    f"{count_phrase(data['_check']['points'], 'point')}, "
+                    f"{data['_check']['runs_for']} for and {data['_check']['runs_against']} against."
                 ),
             ]
         )
@@ -772,8 +784,7 @@ def tie_paragraph(data: dict, ladder: list[dict], ours: dict) -> str | None:
         if row["team"] != data["team"] and row["lost"] == 0 and row["won"] == row["played"] and row["played"] > 0
     ]
     if unbeaten:
-        verb = "is" if len(unbeaten) == 1 else "are"
-        text += f" {join_and(unbeaten)} {verb} unbeaten."
+        text += f" {join_and(unbeaten)} are unbeaten."
     return text
 
 
