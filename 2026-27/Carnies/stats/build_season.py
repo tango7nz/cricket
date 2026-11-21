@@ -85,14 +85,6 @@ def overs_prose(balls: int) -> str:
     return f"{overs(balls)} overs"
 
 
-def balls_left_phrase(balls_left: int) -> str:
-    if balls_left <= 0:
-        return "no overs left"
-    if balls_left % 6 == 0:
-        return count_phrase(balls_left // 6, "over") + " left"
-    return f"{overs(balls_left)} overs left"
-
-
 def scoreline(innings: dict) -> str:
     return f"{innings['runs']}/{innings['wickets']} ({overs(innings['balls'])})"
 
@@ -305,7 +297,6 @@ def bowling_table(data: dict) -> tuple[list[str], list[dict]]:
             {
                 "name": player["name"],
                 "cells": player["cells"],
-                "games": len(player["cells"]),
                 "balls": balls,
                 "maidens": sum(spell["maidens"] for spell in spells),
                 "runs": runs,
@@ -322,16 +313,8 @@ def bowling_table(data: dict) -> tuple[list[str], list[dict]]:
     return [short_date(match["date"]) for match in data["matches"]], rows
 
 
-FIELD_LABELS = (
-    ("catches", "catch", "catches"),
-    ("run_outs", "run-out", "run-outs"),
-    ("stumpings", "stumping", "stumpings"),
-)
-
-
-def fielding(data: dict) -> tuple[list[dict], list[str]]:
+def fielding(data: dict) -> list[dict]:
     counts: dict[str, dict] = {}
-    outside: dict[str, dict[str, list[str]]] = {}
     xi_all = {name for match in data["matches"] for name in match["xi"]}
     for match in data["matches"]:
         for batter in match["carnies_bowling"]["batters"]:
@@ -339,17 +322,12 @@ def fielding(data: dict) -> tuple[list[dict], list[str]]:
             if credited is None:
                 continue
             name, key = credited
-            credit(counts, name, key)
             if name not in xi_all:
-                outside.setdefault(name, {}).setdefault(key, []).append(match["opponent"])
-    known = []
-    for name, row in counts.items():
-        if name not in xi_all:
-            continue
-        known.append({"name": name, **row})
+                continue
+            credit(counts, name, key)
+    known = [{"name": name, **row} for name, row in counts.items()]
     known.sort(key=lambda row: (-row["catches"], -row["stumpings"], -row["run_outs"], row["name"]))
-    notes = [outside_note(name, events) for name, events in outside.items()]
-    return known, notes
+    return known
 
 
 def fielding_credit(batter: dict) -> tuple[str, str] | None:
@@ -363,29 +341,6 @@ def fielding_credit(batter: dict) -> tuple[str, str] | None:
     if kind == "stumped":
         return batter.get("fielder", ""), "stumpings"
     return None
-
-
-def outside_note(name: str, events: dict[str, list[str]]) -> str:
-    parts = []
-    total = 0
-    for key, one, many in FIELD_LABELS:
-        opponents = events.get(key, [])
-        if not opponents:
-            continue
-        total += len(opponents)
-        seen = list(dict.fromkeys(opponents))
-        where = join_and(seen)
-        if len(opponents) == 1:
-            parts.append(f"a {one} against {where}")
-        else:
-            parts.append(f"{len(opponents)} {many} against {where}")
-    listed = join_and(parts)
-    stays = "it stays" if total == 1 else "they stay"
-    who = name if name else "An unnamed fielder"
-    return (
-        f"{who} is credited with {listed} and does not appear in a Carnies eight, "
-        f"so {stays} off the player table."
-    )
 
 
 def credit(counts: dict, name: str, key: str) -> None:
@@ -571,7 +526,7 @@ def appearance_note(data: dict, batters: list[dict]) -> str | None:
 def render(data: dict) -> str:
     _dates, batters = batting_table(data)
     _, bowlers = bowling_table(data)
-    fielders, field_notes = fielding(data)
+    fielders = fielding(data)
     notes = innings_notes(data, batters, bowlers)
     ladder = data["ladder"]
     place = next(index for index, row in enumerate(ladder, start=1) if row["team"] == data["team"])
@@ -601,19 +556,11 @@ def render(data: dict) -> str:
         [
         "## Most runs",
         "",
-        leader_sentence(batters),
-        "",
-        "The trophy is the run total. An average does not break the tie, and a retirement keeps the runs.",
-        "",
         batting_markdown(data["matches"], batters),
         "",
         "\u2020 retired after passing 50, and counted as not out. * not out at the end of the innings. dnb means he was in the side and did not bat. A blank cell means he was not in the side.",
         "",
         "## Most wickets",
-        "",
-        bowling_leader_sentence(bowlers, data.get("max_overs_per_bowler")),
-        "",
-        "The trophy is wickets credited to a bowler. A run-out is not a bowling wicket. Caught and bowled counts.",
         "",
         bowling_markdown(data["matches"], bowlers),
         "",
@@ -630,12 +577,8 @@ def render(data: dict) -> str:
                 [[row["name"], str(row["catches"]), str(row["run_outs"]), str(row["stumpings"])] for row in fielders],
             )
         )
-        lines.append("")
-        lines.append("Caught and bowled is counted as a catch.")
     else:
         lines.append("No catches, run-outs, or stumpings credited to a Carnies player yet.")
-    for note in field_notes:
-        lines.extend(["", note])
     lines.extend(["", "## Results", ""])
     result_rows = []
     for match in data["matches"]:
@@ -727,24 +670,7 @@ def render(data: dict) -> str:
     alias_note = playhq_name_note(data)
     if alias_note:
         lines.extend(["", alias_note])
-    cap = data.get("max_overs_per_bowler")
-    cap_sentence = f" A bowler can bowl {cap} overs in a full game." if cap else ""
-    lines.extend(
-        [
-            "",
-            "## How this is counted",
-            "",
-            "Carnies play 8 a side, so a side is all out at 7 wickets. A batter retires once the score passes 50, and can return, in retirement order, only after the rest of the side is out apart from the last batter. A retirement is not a dismissal and it is not a wicket lost."
-            + cap_sentence,
-            "",
-            "A win is 6 points. A draw, tie, or rain-off is 3. The winner gets one bonus point for a first-innings win by 40 or more, or for a chase in which they lose 3 wickets or fewer.",
-            "",
-            "Batting average is runs divided by dismissals. Bowling average is runs conceded divided by wickets. Economy is runs per over. The two trophies at the end of the year are most runs and most wickets. Nothing else breaks those ties unless the club says so.",
-            "",
-            "Scorecards live in `Scorecards/`. This page is built from `stats/season.json`.",
-            "",
-        ]
-    )
+    lines.append("")
     return "\n".join(lines)
 
 
@@ -821,54 +747,6 @@ def playhq_name_note(data: dict) -> str | None:
 def place_word(place: int) -> str:
     names = {1: "first", 2: "second", 3: "third"}
     return names.get(place, f"{place}th")
-
-
-def leader_sentence(batters: list[dict]) -> str:
-    if not batters:
-        return "No batting yet."
-    leader = batters[0]
-    if len(batters) == 1:
-        return f"{leader['name']} has {leader['runs']} runs."
-    nxt = batters[1]
-    gap = leader["runs"] - nxt["runs"]
-    return (
-        f"{leader['name']} leads with {leader['runs']}. "
-        f"{nxt['name']} is next with {nxt['runs']}, {gap} behind."
-    )
-
-
-def bowling_leader_sentence(bowlers: list[dict], cap: int | None) -> str:
-    if not bowlers:
-        return "No bowling yet."
-    leader = bowlers[0]
-    rivals = [row for row in bowlers[1:] if leader["wickets"] > 0 and row["wickets"] == leader["wickets"]]
-    if rivals:
-        names = join_and([leader["name"], *[row["name"] for row in rivals]])
-        sentence = f"{names} are level on {count_phrase(leader['wickets'], 'wicket')}."
-        if cap and len(rivals) == 1:
-            sentence += " " + overs_bank(leader, rivals[0], cap)
-        return sentence
-    nxt = next((row for row in bowlers[1:] if row["wickets"]), None)
-    if nxt is None:
-        return f"{leader['name']} has {count_phrase(leader['wickets'], 'wicket')}."
-    sentence = (
-        f"{leader['name']} leads with {count_phrase(leader['wickets'], 'wicket')} from {overs_prose(leader['balls'])}. "
-        f"{nxt['name']} has {nxt['wickets']} from {overs_prose(nxt['balls'])}."
-    )
-    if cap:
-        sentence += " " + overs_bank(leader, nxt, cap)
-    return sentence
-
-
-def overs_bank(leader: dict, nxt: dict, cap: int) -> str:
-    def left(row: dict) -> int:
-        return row["games"] * cap * 6 - row["balls"]
-
-    return (
-        f"The cap is {cap} overs a game. From the games played so far, "
-        f"{leader['name']} has {balls_left_phrase(left(leader))} and "
-        f"{nxt['name']} has {balls_left_phrase(left(nxt))}."
-    )
 
 
 def batting_markdown(matches: list[dict], rows: list[dict]) -> str:

@@ -6,10 +6,6 @@ Next game: 28 Nov 2026, T20 Greendale/Sth Malvern Social v Carnies at Greendale 
 
 ## Most runs
 
-George Murphy leads with 150. Cameron Renouf is next with 110, 40 behind.
-
-The trophy is the run total. An average does not break the tie, and a retirement keeps the runs.
-
 | Player | 10 Oct | 16 Oct | 30 Oct | 7 Nov | 21 Nov | I | NO | Runs | HS | Ave | SR | 50 | 4s | 6s |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | George Murphy | 27* | 1 | 50† | 19 | 53† | 5 | 3 | 150 | 53† | 75.00 | 107.1 | 2 | 12 | 5 |
@@ -27,10 +23,6 @@ The trophy is the run total. An average does not break the tie, and a retirement
 † retired after passing 50, and counted as not out. * not out at the end of the innings. dnb means he was in the side and did not bat. A blank cell means he was not in the side.
 
 ## Most wickets
-
-Hugh Burns leads with 7 wickets from 18 overs. Alastair Malcolm has 5 from 8 overs. The cap is 4 overs a game. From the games played so far, Hugh Burns has 2 overs left and Alastair Malcolm has 4 overs left.
-
-The trophy is wickets credited to a bowler. A run-out is not a bowling wicket. Caught and bowled counts.
 
 | Player | 10 Oct | 16 Oct | 30 Oct | 7 Nov | 21 Nov | O | M | R | W | Ave | Econ | Best |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -60,10 +52,6 @@ A figure in a match column is wickets/runs. - means he played and did not bowl. 
 | Hamish Johnson | 1 | 0 | 0 |
 | Richard Booth | 1 | 0 | 0 |
 | Hugh Burns | 0 | 1 | 0 |
-
-Caught and bowled is counted as a catch.
-
-Blair is credited with a run-out against Springston Hopeful and does not appear in a Carnies eight, so it stays off the player table.
 
 ## Results
 
@@ -156,13 +144,3 @@ Carnies fixtures on PlayHQ as at 21 Nov 2026.
 | R11 | 30 Jan 2027 | 2:00pm | The Rock Weedons Blue v Carnies | Foster Park |
 
 PlayHQ names in this draw: Springston Hopefull is Springston Hopeful on the cards; The Rock Weedons Blue is Weedons Blue on the cards.
-
-## How this is counted
-
-Carnies play 8 a side, so a side is all out at 7 wickets. A batter retires once the score passes 50, and can return, in retirement order, only after the rest of the side is out apart from the last batter. A retirement is not a dismissal and it is not a wicket lost. A bowler can bowl 4 overs in a full game.
-
-A win is 6 points. A draw, tie, or rain-off is 3. The winner gets one bonus point for a first-innings win by 40 or more, or for a chase in which they lose 3 wickets or fewer.
-
-Batting average is runs divided by dismissals. Bowling average is runs conceded divided by wickets. Economy is runs per over. The two trophies at the end of the year are most runs and most wickets. Nothing else breaks those ties unless the club says so.
-
-Scorecards live in `Scorecards/`. This page is built from `stats/season.json`.
