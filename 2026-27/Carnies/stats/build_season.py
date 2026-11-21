@@ -127,7 +127,9 @@ def validate(data: dict) -> None:
             raise SystemExit(f"Duplicate match date {match['date']}")
         seen_dates.add(match["date"])
         xi = match["xi"]
-        if len(xi) != data["players_per_side"] or len(set(xi)) != len(xi):
+        if len(xi) != len(set(xi)) or len(xi) > data["players_per_side"]:
+            raise SystemExit(f"{match['date']} does not have {data['players_per_side']} unique players")
+        if len(xi) != data["players_per_side"] and not match.get("xi_note"):
             raise SystemExit(f"{match['date']} does not have {data['players_per_side']} unique players")
         for label, innings, our_names in (
             ("batting", match["carnies_batting"], [b["name"] for b in match["carnies_batting"]["batters"]]),
